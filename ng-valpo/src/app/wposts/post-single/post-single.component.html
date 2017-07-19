@@ -1,0 +1,11 @@
+<p>
+  post-single works!
+</p>
+<div *ngIf="post">
+  <h1>{{ post.title.rendered }}</h1>
+  <div [innerHTML]="post.content.rendered"></div>
+  <img src="{{post.better_featured_image.source_url}}" style="width: 20%;">
+</div>
+<div *ngIf="!post">
+  <p>no post found</p>
+</div>

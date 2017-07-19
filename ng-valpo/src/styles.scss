@@ -1,0 +1,41 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,700');
+
+$bg: #f5f5f5;
+$text-color: #1f1f21;
+$accent-color: rgb(118, 207, 231);
+
+
+
+
+
+
+
+
+body {
+    background:$bg;
+    color:$text-color;
+    font-family: 'Work Sans';
+}
+
+a {
+    color:#ddd;
+}
+a:hover {
+    color:$accent-color;
+}
+
+.cta-btn, .cta-btn:visited {
+    color:$accent-color;
+    border: 1px solid $accent-color;
+    padding: 5px 12px;
+    float:right;
+    border-radius:5px;
+
+}
+
+.cta-btn:hover {
+    background:$accent-color;
+    color:$bg;
+}
